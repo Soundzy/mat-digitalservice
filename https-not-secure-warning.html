@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Why does the browser say my site is not secure? — MAT Digitalservice</title>
+<meta name="description" content="Why does the browser say my site is not secure? What can be checked automatically, and what cannot.">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="MAT Digitalservice">
+<meta property="og:title" content="Why does the browser say my site is not secure?">
+<meta property="og:description" content="Why does the browser say my site is not secure? What can be checked automatically, and what cannot.">
+<meta property="og:url" content="https://soundzy.github.io/mat-digitalservice/https-not-secure-warning.html">
+<meta property="og:locale" content="en_GB">
+<link rel="canonical" href="https://soundzy.github.io/mat-digitalservice/https-not-secure-warning.html">
+<style>
+  :root {
+    --bg: #ffffff; --fg: #16181d; --muted: #5b616e; --line: #e3e6ec;
+    --accent: #1d4ed8; --card: #f7f8fa;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#101215; --fg:#e9ebef; --muted:#a0a6b4; --line:#282c34; --accent:#7aa2ff; --card:#171a1f; }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg);
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 32px 20px 72px; }
+  header { display:flex; justify-content:space-between; align-items:baseline;
+    gap:16px; flex-wrap:wrap; padding-bottom:20px; border-bottom:1px solid var(--line); }
+  .brand { font-weight:700; font-size:19px; letter-spacing:-.01em; }
+  .brand a { color:inherit; text-decoration:none; }
+  nav a { color:var(--muted); text-decoration:none; margin-left:16px; font-size:14px; }
+  nav a:hover { color:var(--fg); }
+  h1 { font-size:28px; line-height:1.25; letter-spacing:-.02em; margin:32px 0 12px; }
+  h2 { font-size:19px; margin:30px 0 8px; letter-spacing:-.01em; }
+  .lead { font-size:18px; color:var(--muted); margin:0 0 8px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:12px;
+    padding:18px 20px; margin:20px 0; }
+  .cta { display:inline-block; background:var(--accent); color:#fff; text-decoration:none;
+    padding:11px 18px; border-radius:9px; font-weight:600; margin-top:8px; }
+  footer { margin-top:52px; padding-top:20px; border-top:1px solid var(--line);
+    color:var(--muted); font-size:14px; }
+  footer a { color:var(--muted); }
+  a { color:var(--accent); }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <span class="brand"><a href="./index.html">MAT Digitalservice</a></span>
+  <nav>
+    <a href="./website-check-en.html">Website check</a>
+    <a href="./guide-en.html">Guide</a>
+    <a href="./impressum.html">Legal notice</a>
+    <a href="./datenschutz.html">Privacy</a>
+    <a href="./ratgeber.html">Deutsch</a>
+  </nav>
+</header>
+<h1>Why does the browser say my site is not secure?</h1>
+<p class="lead">What it is about, what can honestly be measured about it from outside &mdash; and
+how to check it yourself without buying anything.</p>
+
+<h2>What it is about</h2>
+<p>The site is served unencrypted. Browsers mark that as not secure, and visitors see the warning before they see the offer.</p>
+<p style="color:var(--muted);font-size:15px">This one is not about any single country
+and its law. It holds wherever the site is.</p>
+
+<h2>What can actually be measured</h2>
+<p>Whether the page is served over HTTPS. The certificate's validity dates are not inspected.</p>
+<p>That is deliberately narrow: only what is visible from outside, in the source of the front page.
+Nothing else appears in the finding either &mdash; anyone claiming more is guessing.</p>
+
+<h2>What to do</h2>
+<p>Install a free certificate (Let's Encrypt) and redirect http to https.</p>
+
+<div class="card">
+  <h2 style="margin-top:0">Does this apply to your site?</h2>
+  <p>Send me your website address by email. I open it, measure it, and send back where you stand on
+  this point &mdash; free, usually within minutes. If nothing is wrong at your end, that is what it
+  will say.</p>
+  <a class="cta" href="mailto:yusuf.binder@gmail.com?subject=Website%20check&amp;body=Please%20check%20my%20website%3A%0A%0Ahttps%3A%2F%2F">Send the address &mdash; the finding is free</a>
+  <p style="font-size:15px;margin-bottom:0">The full report with all 17 checks and one concrete
+  measure for each is 29.00 &euro; &mdash; <a href="./website-check-en.html">what you get</a>.</p>
+</div>
+
+<p><a href="./guide-en.html">&larr; All seventeen checks</a></p>
+<footer>
+  <p>MAT Digitalservice &middot; Y.S. Binder &middot; 68809 Neulußheim<br>
+  Contact: <a href="mailto:yusuf.binder@gmail.com">yusuf.binder@gmail.com</a></p>
+  <p>&copy; 2026 Y.S. Binder. This page explains what is checked. It is not legal advice.</p>
+</footer>
+</div>
+</body>
+</html>
